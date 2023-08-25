@@ -1,0 +1,41 @@
+body {
+    background-color: #2e2a2a;
+}
+
+#game {
+    color: #f7f7f2;
+    text-align: center;
+    font-family: MV Boli;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    line-height: normal;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.border_right {
+    border-right: 2px solid;
+}
+
+.border_bottom {
+    border-bottom: 2px solid;
+}
+
+#restart {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: MV Boli;
+    text-align: center;
+}
